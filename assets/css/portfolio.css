@@ -1,0 +1,69 @@
+.main-header-image-bg {
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),
+    url('../img/main-heading-bg.jpeg')
+};
+
+.about-me-content {
+  vertical-align: middle;
+}
+
+.about-me-image {
+  vertical-align: middle;
+  height: 300px;
+  width: 300px;
+}
+
+.table-row {
+  display: table;
+}
+
+.big-map{
+    height: 30vh;
+    width: 100%;
+
+    position: absolute;
+    overflow: hidden;
+}
+
+.contact-card {
+  width: 100%;
+  margin: auto 15px;
+}
+
+.cards {
+    color: #FFFFFF !important;
+}
+
+.icons svg {
+  max-height: 80px;
+}
+
+.card-title {
+  margin-top: 15px !important;
+}
+
+.lang-icons i {
+  font-size: 50px;
+  padding: 0px 12px;
+}
+
+@media screen and (max-width: 992px) {
+  .about-me-image {
+    height: 200px;
+    width: auto;
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-me-image {
+    height: 200px;
+    width: auto;
+    margin-bottom: 25px;
+  }
+}
